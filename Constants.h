@@ -37,6 +37,11 @@ namespace Constants {
 
 	const TString UBCodeVersion = "v08_00_00_70";
 
+	// FV
+
+	double FVx = 256., FVy = 230., FVz = 1036.;
+	double borderx = 10., bordery = 10., borderz = 10.;
+
 	//----------------------------------------//
 
 	// Exporting paths
@@ -397,6 +402,17 @@ namespace Constants {
 	// -----------------------------------------------------------------------------------------------------------------------------
 
 	// Binning
+
+	//----------------------------------------//
+
+	// Blips
+
+	static TString LabelXAxisBlip_x = ";x-blip [cm]"; 
+	static TString LabelXAxisTrueBlip_x = ";True x-blip [cm]";	
+	static const int NBinsBlip_x = 20;
+	static TString LabelXAxisBlip_x2D = LabelXAxisTrueBlip_x+";Reco x-blip [cm]";
+
+	//----------------------------------------//	
 
 	static const int NBinsMuonCosTheta = 18;
 	static const double ArrayNBinsMuonCosTheta[NBinsMuonCosTheta+1] = { -1.,-0.85,-0.7,-0.57,-0.45,-0.32,-0.2,-0.1,0.,0.1,0.2,0.3,0.4,0.5,0.6,0.72,0.84,0.95,1.};

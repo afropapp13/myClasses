@@ -494,17 +494,17 @@ double PeLEE_ReturnBeamOnRunPOT(TString Run) {
 
 	double DataPOT = -99.;
 
-	if (Run == "Run1") { DataPOT = Fulltor860_wcut_Run1 ; }
-	if (Run == "Run1A_open_trigger") { DataPOT = Fulltor860_wcut_Run1A_open_trigger ; }
-	if (Run == "Run1B_open_trigger") { DataPOT = Fulltor860_wcut_Run1B_open_trigger ; }
-	if (Run == "Run2") { DataPOT = Fulltor860_wcut_Run2 ; }
-	if (Run == "Run3") { DataPOT = Fulltor860_wcut_Run3 ; }
-	if (Run == "Run4a") { DataPOT = Fulltor860_wcut_Run4a ; }
-	if (Run == "Run4b") { DataPOT = Fulltor860_wcut_Run4b ; }
-	if (Run == "Run4c") { DataPOT = Fulltor860_wcut_Run4c ; }	
-	if (Run == "Run4d") { DataPOT = Fulltor860_wcut_Run4d ; }		
-	if (Run == "Run5") { DataPOT = Fulltor860_wcut_Run5 ; }
-	if (Run == "Combined") { DataPOT = Fulltor860_wcut_Combined ; }
+	if ( Run.Contains("Run1") ) { DataPOT = Fulltor860_wcut_Run1 ; }
+	if ( Run.Contains("Run1A_open_trigger") ) { DataPOT = Fulltor860_wcut_Run1A_open_trigger ; }
+	if ( Run.Contains("Run1B_open_trigger") ) { DataPOT = Fulltor860_wcut_Run1B_open_trigger ; }
+	if ( Run.Contains("Run2") ) { DataPOT = Fulltor860_wcut_Run2 ; }
+	if ( Run.Contains("Run3") ) { DataPOT = Fulltor860_wcut_Run3 ; }
+	if ( Run.Contains("Run4a") ) { DataPOT = Fulltor860_wcut_Run4a ; }
+	if ( Run.Contains("Run4b") ) { DataPOT = Fulltor860_wcut_Run4b ; }
+	if ( Run.Contains("Run4c") ) { DataPOT = Fulltor860_wcut_Run4c ; }	
+	if ( Run.Contains("Run4d") ) { DataPOT = Fulltor860_wcut_Run4d ; }		
+	if ( Run.Contains("Run5") ) { DataPOT = Fulltor860_wcut_Run5 ; }
+	if ( Run.Contains("Combined") ) { DataPOT = Fulltor860_wcut_Combined ; }
 
 	return DataPOT;
 
