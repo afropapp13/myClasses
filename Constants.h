@@ -16,7 +16,7 @@ namespace Constants {
 
 	//----------------------------------------//
 
-        // Kerberos user name
+    // Kerberos user name
   
 	TString UserID = "apapadop";
 
@@ -347,6 +347,18 @@ namespace Constants {
 	static const double FullE1DCNT_wcut_Run4b = 32305463.0;
 	static const double FullEXT_Run4b = 89244940.0;	
 
+	// ------------------------------------ //	
+	
+	// mcc9_10 Run 4b 
+
+	static const double tor860_wcut_mcc9_10_Run4b = 0.;
+	static const double E1DCNT_wcut_mcc9_10_Run4b = 0.;
+	static const double EXT_mcc9_10_Run4b = 1.;
+
+	static const double Fulltor860_wcut_mcc9_10_Run4b = 1.36e20;
+	static const double FullE1DCNT_wcut_mcc9_10_Run4b = 32305463.0;
+	static const double FullEXT_mcc9_10_Run4b = 89244940.0;		
+
 	// ------------------------------------ //
 		
 	// Run 4c
@@ -411,6 +423,33 @@ namespace Constants {
 	static TString LabelXAxisTrueBlip_x = ";True x-blip [cm]";	
 	static const int NBinsBlip_x = 20;
 	static TString LabelXAxisBlip_x2D = LabelXAxisTrueBlip_x+";Reco x-blip [cm]";
+
+	static TString LabelXAxisBlip_y = ";y-blip [cm]"; 
+	static TString LabelXAxisTrueBlip_y = ";True y-blip [cm]";	
+	static const int NBinsBlip_y = 20;
+	static TString LabelXAxisBlip_y2D = LabelXAxisTrueBlip_y+";Reco y-blip [cm]";	
+
+	static TString LabelXAxisBlip_z = ";z-blip [cm]"; 
+	static TString LabelXAxisTrueBlip_z = ";True z-blip [cm]";	
+	static const int NBinsBlip_z = 20;
+	static TString LabelXAxisBlip_z2D = LabelXAxisTrueBlip_z+";Reco z-blip [cm]";		
+
+	TString LabelXAxisnBlips_saved = ";# saved blips", LabelXAxisnBlips_saved2D = ";true # saved blips"; 
+	int NBinsnBlips_saved = 41;
+	double nBlips_saved_min = -0.5, nBlips_saved_max = 40.5;
+	
+	TString LabelXAxisBlip_size = ";blip size [cm]", LabelXAxisBlip_size2D = ";true blip size [cm]"; 
+	int NBinsBlip_size = 24;
+	double Blip_size_min = 0., Blip_size_max = 6.;	
+
+	TString LabelXAxisBlip_energy = ";blip energy [MeV]", LabelXAxisBlip_energy2D = ";true blip energy [cm]"; 
+	int NBinsBlip_energy = 20;
+	double Blip_energy_min = 0., Blip_energy_max = 20.;	
+
+	TString LabelXAxisBlip_proxtrkdist = ";blip-proxtrack distance [cm]", LabelXAxisBlip_proxtrkdist2D = ";true blip-proxtrack [cm]"; 
+	int NBinsBlip_proxtrkdist = 50;
+	double Blip_proxtrkdist_min = 0., Blip_proxtrkdist_max = 250.;	
+
 
 	//----------------------------------------//	
 
