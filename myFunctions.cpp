@@ -499,8 +499,10 @@ double PeLEE_ReturnBeamOnRunPOT(TString Run) {
 	if ( Run.Contains("Run1B_open_trigger") ) { DataPOT = Fulltor860_wcut_Run1B_open_trigger ; }
 	if ( Run.Contains("Run2") ) { DataPOT = Fulltor860_wcut_Run2 ; }
 	if ( Run.Contains("Run3") ) { DataPOT = Fulltor860_wcut_Run3 ; }
-	if ( Run.Contains("Run4a") ) { DataPOT = Fulltor860_wcut_Run4a ; }
+	if ( Run.Contains("Run4a") ) { DataPOT = Fulltor860_wcut_Run4a ; }	
 	if ( Run.Contains("Run4b") ) { DataPOT = Fulltor860_wcut_Run4b ; }
+	if ( Run.Contains("Run4b_standalone") ) { DataPOT = Fulltor860_wcut_mcc9_10_Run4b_standalone; }	
+	if ( Run.Contains("Run4b_unified") ) { DataPOT = Fulltor860_wcut_mcc9_10_Run4b_unified; }			
 	if ( Run.Contains("Run4c") ) { DataPOT = Fulltor860_wcut_Run4c ; }	
 	if ( Run.Contains("Run4d") ) { DataPOT = Fulltor860_wcut_Run4d ; }		
 	if ( Run.Contains("Run5") ) { DataPOT = Fulltor860_wcut_Run5 ; }

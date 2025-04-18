@@ -97,41 +97,41 @@ namespace Constants {
 		{ "MuonCosThetaSingleBinPlot",  "#frac{d#sigma}{dcos#theta_{#mu}} #left[10^{-38} #frac{cm^{2}}{Ar}#right]" },
 		{ "ThetaVisPlot",  "#frac{d#sigma}{d#theta_{vis}} #left[10^{-38} #frac{cm^{2}}{deg Ar}#right]" },
 		{ "CosThetaVisPlot",  "#frac{d#sigma}{dcos#theta_{vis}} #left[10^{-38} #frac{cm^{2}}{Ar}#right]" },
-		{ "PMissPlot",  "#frac{d#sigma}{dp_{miss}} #left[10^{-38} #frac{cm^{2}}{(GeV/c) Ar}#right]" },
+		{ "PMissPlot",  "#frac{d#sigma}{dp_{miss}} #left[10^{-38} #frac{cm^{2}}{(GeV/#it{c}) Ar}#right]" },
 		{ "ThetaVis_ECal_0_00To0_50Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dE_{reco}} #left[10^{-38} #frac{cm^{2}}{deg GeV Ar}#right]"  },
 		{ "ThetaVis_ECal_0_50To0_80Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dE_{reco}} #left[10^{-38} #frac{cm^{2}}{deg GeV Ar}#right]"  },
 		{ "ThetaVis_ECal_0_80To2_00Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dE_{reco}} #left[10^{-38} #frac{cm^{2}}{deg GeV Ar}#right]"  },
 		{ "SerialThetaVis_ECalPlot", "#frac{d^{2}#sigma}{d#theta_{vis}dE_{reco}} #left[10^{-38} #frac{cm^{2}}{deg GeV Ar}#right]"  },			
-		{ "ThetaVis_DeltaPn_0_00To0_20Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },
-		{ "ThetaVis_DeltaPn_0_20To0_40Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },
-		{ "ThetaVis_DeltaPn_0_40To1_00Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },
-		{ "SerialThetaVis_DeltaPnPlot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },			
-		{ "ThetaVis_PMiss_0_00To0_10Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },
-		{ "ThetaVis_PMiss_0_10To0_20Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },
-		{ "ThetaVis_PMiss_0_20To0_50Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },
-		{ "SerialThetaVis_PMissPlot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/c) Ar}#right]"  },			
+		{ "ThetaVis_DeltaPn_0_00To0_20Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },
+		{ "ThetaVis_DeltaPn_0_20To0_40Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },
+		{ "ThetaVis_DeltaPn_0_40To1_00Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },
+		{ "SerialThetaVis_DeltaPnPlot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{n}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },			
+		{ "ThetaVis_PMiss_0_00To0_10Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },
+		{ "ThetaVis_PMiss_0_10To0_20Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },
+		{ "ThetaVis_PMiss_0_20To0_50Plot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },
+		{ "SerialThetaVis_PMissPlot", "#frac{d^{2}#sigma}{d#theta_{vis}dp_{miss}} #left[10^{-38} #frac{cm^{2}}{deg (GeV/#it{c}) Ar}#right]"  },			
 	
 	};
 
 	static std::map<TString,TString> LatexLabel =
 	{
-		{ "MuonCosThetaPlot",  "All events" },
-		{ "MuonCosThetaSingleBinPlot",  "All events" },
-		{ "ThetaVisPlot", "All events" },	
-		{ "CosThetaVisPlot", "All events" },	
-		{ "PMissPlot", "All events" },	
+		{ "MuonCosThetaPlot",  " all events" },
+		{ "MuonCosThetaSingleBinPlot",  " all events" },
+		{ "ThetaVisPlot", " all events" },	
+		{ "CosThetaVisPlot", " all events" },	
+		{ "PMissPlot", " all events" },	
 		{ "ThetaVis_ECal_0_00To0_50Plot", "0 < E_{reco} < 0.5 GeV"  },
 		{ "ThetaVis_ECal_0_50To0_80Plot", "0.5 < E_{reco} < 0.8 GeV"  },
 		{ "ThetaVis_ECal_0_80To2_00Plot", "0.8 < E_{reco} < 2 GeV"  },
-		{ "SerialThetaVis_ECalPlot", "All events"  },			
-		{ "ThetaVis_DeltaPn_0_00To0_20Plot", "p_{n} < 0.2 GeV/c"  },
-		{ "ThetaVis_DeltaPn_0_20To0_40Plot", "0.2 < p_{n} < 0.4 GeV/c"  },
-		{ "ThetaVis_DeltaPn_0_40To1_00Plot", "p_{n} > 0.4 GeV/c"  },
-		{ "SerialThetaVis_DeltaPnPlot", "All events"  },			
-		{ "ThetaVis_PMiss_0_00To0_10Plot", "|p_{miss}| < 0.10 GeV/c"  },
-		{ "ThetaVis_PMiss_0_10To0_20Plot", "0.10 < |p_{miss}| < 0.20 GeV/c"  },
-		{ "ThetaVis_PMiss_0_20To0_50Plot", "|p_{miss}| > 0.20 GeV/c"  },
-		{ "SerialThetaVis_PMissPlot", "All events"  },			
+		{ "SerialThetaVis_ECalPlot", " all events"  },			
+		{ "ThetaVis_DeltaPn_0_00To0_20Plot", "p_{n} < 0.2 GeV/#it{c}"  },
+		{ "ThetaVis_DeltaPn_0_20To0_40Plot", "0.2 < p_{n} < 0.4 GeV/#it{c}"  },
+		{ "ThetaVis_DeltaPn_0_40To1_00Plot", "0.4 < p_{n} < 1 GeV/#it{c}"  },
+		{ "SerialThetaVis_DeltaPnPlot", " all events"  },			
+		{ "ThetaVis_PMiss_0_00To0_10Plot", "|p_{miss}| < 0.1 GeV/#it{c}"  },
+		{ "ThetaVis_PMiss_0_10To0_20Plot", "0.1 < |p_{miss}| < 0.2 GeV/#it{c}"  },
+		{ "ThetaVis_PMiss_0_20To0_50Plot", "0.2 < |p_{miss}| < 0.5 GeV/#it{c}"  },
+		{ "SerialThetaVis_PMissPlot", " all events"  },			
 	
 	};	
 	
@@ -263,6 +263,8 @@ namespace Constants {
 //	vector<TString> Runs{"Run1"};
 	vector<TString> Runs{"Run1","Run2","Run3","Run4b","Run4c","Run4d","Run5","Combined"};
 
+	vector<TString> xsec_Runs{"Run4b_standalone","Run4b_unified"};	
+
 	// ------------------------------------ //
 
 	// Run 1 
@@ -349,15 +351,42 @@ namespace Constants {
 
 	// ------------------------------------ //	
 	
-	// mcc9_10 Run 4b 
+	// mcc9_10 Run 4b standalone
 
-	static const double tor860_wcut_mcc9_10_Run4b = 0.;
-	static const double E1DCNT_wcut_mcc9_10_Run4b = 0.;
-	static const double EXT_mcc9_10_Run4b = 1.;
+	static const double tor860_wcut_mcc9_10_Run4b_standalone = 0.;
+	static const double E1DCNT_wcut_mcc9_10_Run4b_standalone = 0.;
+	static const double EXT_mcc9_10_Run4b_standalone = 1.;
 
-	static const double Fulltor860_wcut_mcc9_10_Run4b = 1.36e20;
-	static const double FullE1DCNT_wcut_mcc9_10_Run4b = 32305463.0;
-	static const double FullEXT_mcc9_10_Run4b = 89244940.0;		
+	// good run list applied
+	// produced by production team
+	//static const double Fulltor860_wcut_mcc9_10_Run4b_standalone = 3.92e+19;
+	//static const double FullE1DCNT_wcut_mcc9_10_Run4b_standalone = 9515547.0;
+	//static const double FullEXT_mcc9_10_Run4b_standalone = 27868945.0;	
+
+	//// good run list applied and rse matched
+	//// Afro filtered it so proceed with caution
+	static const double Fulltor860_wcut_mcc9_10_Run4b_standalone = 3.776e+19;
+	static const double FullE1DCNT_wcut_mcc9_10_Run4b_standalone = 9176822.0;
+	static const double FullEXT_mcc9_10_Run4b_standalone = 27868945.0;		
+
+	// ------------------------------------ //	
+	
+	// mcc9_10 Run 4b unified
+
+	static const double tor860_wcut_mcc9_10_Run4b_unified = 0.;
+	static const double E1DCNT_wcut_mcc9_10_Run4b_unified = 0.;
+	static const double EXT_mcc9_10_Run4b_unified = 1.;
+
+	// //Erin filtered them and added her vars and good run list applied
+	//static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 4.28e19;
+	//static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 10398793.;
+	//static const double FullEXT_mcc9_10_Run4b_unified = 28964045.;	
+	
+	//// Afro rse's the WC processed files from Erin
+	static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 3.776e+19;
+	static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 9176822.0;
+	static const double FullEXT_mcc9_10_Run4b_unified = 28964045.;	
+
 
 	// ------------------------------------ //
 		
@@ -417,6 +446,25 @@ namespace Constants {
 
 	//----------------------------------------//
 
+	//wc_numu_score
+
+	TString LabelXAxiswc_numu_score = ";wc numu score", LabelXAxiswc_numu_score2D = ";true wc numu score"; 
+	int NBinswc_numu_score = 100;
+	double min_wc_numu_score = -10, max_wc_numu_score = 10;	
+
+	//ns_time
+
+	TString LabelXAxisns_time = ";ns time [ns]", LabelXAxisns_time2D = ";true ns time [ns]"; 
+	int NBinsns_time = 50;
+	double min_ns_time = 2500, max_ns_time = 5500;		
+
+
+	//nuscore
+
+	TString LabelXAxisNuScore = ";#nu score", LabelXAxisNuScore2D = ";true #nu score"; 
+	int NBinsNuScore = 50;
+	double min_nuscore = 0., max_nuscore = 1.;		
+
 	// Blips
 
 	static TString LabelXAxisBlip_x = ";x-blip [cm]"; 
@@ -435,20 +483,28 @@ namespace Constants {
 	static TString LabelXAxisBlip_z2D = LabelXAxisTrueBlip_z+";Reco z-blip [cm]";		
 
 	TString LabelXAxisnBlips_saved = ";# saved blips", LabelXAxisnBlips_saved2D = ";true # saved blips"; 
-	int NBinsnBlips_saved = 41;
-	double nBlips_saved_min = -0.5, nBlips_saved_max = 40.5;
+	int NBinsnBlips_saved = 16;
+	double nBlips_saved_min = -0.5, nBlips_saved_max = 15.5;
 	
 	TString LabelXAxisBlip_size = ";blip size [cm]", LabelXAxisBlip_size2D = ";true blip size [cm]"; 
-	int NBinsBlip_size = 24;
-	double Blip_size_min = 0., Blip_size_max = 6.;	
+	int NBinsBlip_size = 15;
+	double Blip_size_min = 0., Blip_size_max = 3.;	
 
-	TString LabelXAxisBlip_energy = ";blip energy [MeV]", LabelXAxisBlip_energy2D = ";true blip energy [cm]"; 
+	TString LabelXAxisBlip_energy = ";blip energy [MeV]", LabelXAxisBlip_energy2D = ";true blip energy [MeV]"; 
 	int NBinsBlip_energy = 20;
-	double Blip_energy_min = 0., Blip_energy_max = 20.;	
+	double Blip_energy_min = 0., Blip_energy_max = 5.;	
 
-	TString LabelXAxisBlip_proxtrkdist = ";blip-proxtrack distance [cm]", LabelXAxisBlip_proxtrkdist2D = ";true blip-proxtrack [cm]"; 
+	TString LabelXAxisBlip_proxtrkdist = ";blip-proxtrack distance [cm]", LabelXAxisBlip_proxtrkdist2D = ";true blip-proxtrack distance [cm]"; 
 	int NBinsBlip_proxtrkdist = 50;
-	double Blip_proxtrkdist_min = 0., Blip_proxtrkdist_max = 250.;	
+	double Blip_proxtrkdist_min = 0., Blip_proxtrkdist_max = 250.;
+	
+	TString LabelXAxisBlip_pairdist = ";blip-pair track min distance [cm]", LabelXAxisBlip_pairdist2D = ";true blip-pair track min distance [cm]"; 
+	int NBinsBlip_pairdist = 50;
+	double Blip_pairdist_min = 0., Blip_pairdist_max = 250.;	
+
+	TString LabelXAxisblip_vrt = ";blip-vertex distance [cm]", LabelXAxisblip_vrt2D = ";true blip-vertex distance [cm]"; 
+	int NBinsblip_vrt = 50;
+	double blip_vrt_min = 0., blip_vrt_max = 250.;		
 
 
 	//----------------------------------------//	
