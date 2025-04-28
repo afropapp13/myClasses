@@ -144,7 +144,7 @@ STV_Tools::STV_Tools(TVector3 MuonVector,TVector3 ProtonVector, double MuonEnerg
 	TVector3 PnVector(PtVector.X(),PtVector.Y(),fPL);
 
 	TVector3 qVector = qLorentzVectorMB.Vect();
-	TVector3 qTVector(qVector.X(), qVector.X(), 0.);	
+	TVector3 qTVector(qVector.X(), qVector.Y(), 0.);	
 	TVector3 qVectorUnit = qVector.Unit();
 	TVector3 qTVectorUnit = qTVector.Unit();		
 
