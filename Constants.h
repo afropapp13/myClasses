@@ -263,7 +263,8 @@ namespace Constants {
 //	vector<TString> Runs{"Run1"};
 	vector<TString> Runs{"Run1","Run2","Run3","Run4b","Run4c","Run4d","Run5","Combined"};
 
-	vector<TString> xsec_Runs{"Run4b_standalone","Run4b_unified"};	
+	vector<TString> xsec_Runs{"Run4b_unified"};	
+	//vector<TString> xsec_Runs{"Run4b_standalone","Run4b_unified"};	
 
 	// ------------------------------------ //
 
@@ -377,16 +378,24 @@ namespace Constants {
 	static const double E1DCNT_wcut_mcc9_10_Run4b_unified = 0.;
 	static const double EXT_mcc9_10_Run4b_unified = 1.;
 
+	// CM Indiana May 13 2025
+	static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 1.2e20;
+	static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 28396891;
+	static const double FullEXT_mcc9_10_Run4b_unified = 46393391;
+
 	// //Erin filtered them and added her vars and good run list applied
 	//static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 4.28e19;
 	//static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 10398793.;
 	//static const double FullEXT_mcc9_10_Run4b_unified = 28964045.;	
 	
 	//// Afro rse's the WC processed files from Erin
-	static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 3.776e+19;
-	static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 9176822.0;
-	static const double FullEXT_mcc9_10_Run4b_unified = 28964045.;	
+	//static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 3.776e+19;
+	//static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 9176822.0;
+	//static const double FullEXT_mcc9_10_Run4b_unified = 28964045.;	
 
+	//static const double Fulltor860_wcut_mcc9_10_Run4b_unified = 3.776e+19;
+	//static const double FullE1DCNT_wcut_mcc9_10_Run4b_unified = 9176822.0;
+	//static const double FullEXT_mcc9_10_Run4b_unified = 28964045.;	
 
 	// ------------------------------------ //
 		
@@ -481,6 +490,11 @@ namespace Constants {
 	static TString LabelXAxisTrueBlip_z = ";True z-blip [cm]";	
 	static const int NBinsBlip_z = 20;
 	static TString LabelXAxisBlip_z2D = LabelXAxisTrueBlip_z+";Reco z-blip [cm]";		
+
+	int radius = 20; // cm
+	TString LabelXAxisnBlips_radius = ";# blips within " + TString( to_string(radius) ) + "cm from vertex", LabelXAxisnBlips_radius2D = ";true # radius blips within " + TString( to_string(radius) ) + "cm from vertex"; 
+	int NBinsnBlips_radius = 8;
+	double nBlips_radius_min = -0.5, nBlips_radius_max = 7.5;
 
 	TString LabelXAxisnBlips_saved = ";# saved blips", LabelXAxisnBlips_saved2D = ";true # saved blips"; 
 	int NBinsnBlips_saved = 16;
